@@ -2,18 +2,134 @@ body{
     font-family: 'Raleway', sans-serif;
     
 }
-.container{width: 1193px; margin:0 auto;}
-img{disp: block; width: 100%;}
+.container{ max-width: 1193px; margin:0 auto;}
+.img-responsive{disp: block; width: 100%;}
 
 * {
     box-sizing: border-box;
 }
+.topo{
+    background: url("../img/bg_banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 679px;
+    border-bottom: 5px solid #43a047;
+    
+}
+.menu {
+   
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+     box-sizing: border-box;
+}
+.menu::before, .menu::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.menu a {
+    color: #000;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.menu-nav a {
+    font-size:1.062em;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    margin:0px 5px;
+    color:#fff;
+    background-color:transparent;
+}
 
 
 
+/*BANNER INFO */
+.info-banner{
+ color:#fff;
+ margin-left: 150px;
+}
+.info-banner h2{
+     display: flex;
+    flex-wrap: wrap;
+    font-size: 3.5em;
+    text-transform: uppercase;
+     font-weight: 400;
+    line-height: 1.2;
+}
+.info-banner p{
+     display: flex;
+    flex-wrap: wrap;
+    font-size: 2.1em;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+.info-banner a{
+    padding: 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+.btn-menu-orcamento{
+    border:2px solid #43a047;
+    background: transparent;
+    background: linear-gradient(to left,transparent  50%, #43a047 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    margin-left:10px;
+    transition:all 1s ease;
+    color:linear-gradient(to left,transparent  50%, #43a047 50%);
 
+}
+.btn-menu-orcamento:hover {
+    background-position:left bottom;
+}
+.zencompany{
+    display: flex;
 
+}
+.zencompany-info{
+    max-width: 591px;
+    margin-left: 150px;
+   text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#3c3c3c;
+}
+.zencompany-info h1{
+    font-size: 3em;
+    
+    font-weight: 300;
+}
+.zencompany-info h1 > span {
+    color:#43a047;
+}
+.zencompany-info small{
+    font-size: 1.3em;
+}
+.zencompany-info p{
+    color:#3c3c3c;
+    line-height: 2;
+}
 
+/*===========================================================================
+ KEYFRAMES
+============================================================================= */
 
 
 
